@@ -7,19 +7,47 @@
         <title>Portfolio Website</title>
     </head>
 
-    <body style="text-align: center;">
-        <div style="background-color: gold; background-blend-mode:hue; font-family: Cambria;">
+    <body style="text-align: center; background-color: rgba(242, 227, 14, 1);">
+        <div style="background-color: rgba(242, 135, 194, 1); background-blend-mode:hue; font-family: Cambria;">
             <h1>Nayana Rao's Project Portfolio</h1>
             <h2>I am a Web Developer</h2>
         </div>
+        <div class="menubar" style="position:relative; width: 20%;">
+                <ul id="menu" role="menu" aria-labelledby="menubutton" class="menubar-content" style="position: absolute; background-color: rgba(242, 68, 29, 1);margin-left: 10px; padding: 0%; width: 100%;" >
+                    <li></li>
+                    <li role="presentation"><a role="menuitem" href="./public/about.html">  About Me  </a></li>
+                    <li role="presentation"><a role="menuitem" href="./public/contact.html">  Contact Me  </a></li>
+                    <li role="presentation"><a role="menuitem" href="./public/skillset.html">  My Skills  </a></li>
+                    <li></li>
+                </ul>
+        </div>
         <hr>
+        <div style="background-color: rgba(41, 216, 152, 1);; width: 78%; margin-left: 22%;">
         <!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-        <a href="./public/movie-ranking.html" style="font-size:medium;">Top 3 Movie Ranking</a><br>
-        <img src="./assets/images/MovieRankingProject.png" width="350" title="Movie Ranking Project" alt="Picture of Movie Ranking Project." style="padding-top: 2.5%; padding-bottom: 2.5%;">
-        <br><br>
-        <a href="./public/birthday-invite.html">Birthday Invitation Project</a><br>
-        <img src="./assets/images/BirthdayInvite.png" width="350" title="Birthday Invitation Project" alt="Birthday Invitation Project." style="padding-top: 2.5%; padding-bottom: 2.5%;">
-        <br><br>
+            <table style="width: 100%;">
+                <tr>
+                    <td><a href="./public/movie-ranking.html"><img src="./assets/images/MovieRankingProject.png" width="200" title="Movie Ranking Project" alt="Picture of Movie Ranking Project."></a></td>
+                    <td><a href="./public/birthday-invite.html"><img src="./assets/images/BirthdayInvite.png" width="200" title="Birthday Invitation Project" alt="Birthday Invitation Project." style="padding-top: 2.5%; padding-bottom: 2.5%;"></a></td>
+                    <td><a href="./public/skillset.html"><img src="./assets/images/mySkillspage.png" width="200" title="My Skillset" alt="Picture of Skillset Profile page."></a></td>
+                </tr>
+                <tr>
+                    <td><a href="./public/movie-ranking.html">Top 3 Movie Ranking</a></td>
+                    <td><a href="./public/birthday-invite.html">Birthday Invitation Project</a></td>
+                    <td><a href="./public/skillset.html">Skillset Profile Project</a></td>
+            </tr>
+            </table>
+            <br><br>
+        </div>
+        
+    <footer style="text-align:left; position:fixed; bottom: 3%; margin-left: 40%; width: 35%; height: 2.5rem;">
+        <div style="background-color: rgba(109, 115, 242, 1);  width: 13.5rem;">
+            <b style="font-family: 'Lucida Sans'; font-size: large; padding-bottom: 5px;">Ways to get in touch:</b><br>
+            <a href="https://www.linkedin.com/in/nayana-rao-148a1740/"> <img src="./assets/images/linkedin-resume-icon.png" width="30" alt="LinkedIn" style="margin-left: 17%;"></a>
+            <a href="https://twitter.com/Nayana90839970"> <img src="./assets/images/twitter-resume-icon.png" width="30" alt="twitter" style="margin-left: 3%;"></a>
+            <a href="https://www.facebook.com/nayanastar"> <img src="./assets/images/facebook-resume-icon.png" width="30" alt="facebook" style="margin-left: 3%;"></a>
+            <a href="tel:+18583574186"> <img src="./assets/images/phone-number-resume-icon.png" width="30" alt="phone" style="margin-left: 3%;"></a>
+        </div>
+    </footer>
         <!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
 
         <!-- TODO 4: Add titles/subtitles etc. -->
@@ -31,9 +59,26 @@
         https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
 
         <!-- TODO 7: Add the Contact Me and About Me page links -->
-    </body>
-    <footer>
-        <a href="./about.html" style="padding-left: 5%; padding-right:20%;">About Me</a>
-        <a href="./contact.html" style="padding-left: 5%;">Contact Me</a>
-    </footer>
+    
+    <!-- Color Theme Swatches in Hex */
+.Spring-Disco-1-hex { color: #F288C2; }
+.Spring-Disco-2-hex { color: #6D74F2; }
+.Spring-Disco-3-hex { color: #29D998; }
+.Spring-Disco-4-hex { color: #F2E30F; }
+.Spring-Disco-5-hex { color: #F2441D; }
+
+/* Color Theme Swatches in RGBA */
+.Spring-Disco-1-rgba { color: rgba(242, 135, 194, 1); }
+.Spring-Disco-2-rgba { color: rgba(109, 115, 242, 1); }
+.Spring-Disco-3-rgba { color: rgba(41, 216, 152, 1); }
+.Spring-Disco-4-rgba { color: rgba(242, 227, 14, 1); }
+.Spring-Disco-5-rgba { color: rgba(242, 68, 29, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Spring-Disco-1-hsla { color: hsla(326, 80, 74, 1); }
+.Spring-Disco-2-hsla { color: hsla(236, 83, 68, 1); }
+.Spring-Disco-3-hsla { color: hsla(157, 69, 50, 1); }
+.Spring-Disco-4-hsla { color: hsla(56, 89, 50, 1); }
+.Spring-Disco-5-hsla { color: hsla(11, 89, 53, 1); }-->
+
 </html>
